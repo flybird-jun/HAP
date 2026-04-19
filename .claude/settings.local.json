@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(python -c \"from src.models.issue_model import Issue, IssueStatus; print\\('Models OK'\\); from src.data.database_manager import DatabaseManager; print\\('Database OK'\\)\")",
+      "Bash(pip install *)",
+      "Bash(python -c ' *)",
+      "Bash(python main.py)",
+      "WebFetch(domain:www.flaticon.com)",
+      "WebFetch(domain:icons8.com)",
+      "WebFetch(domain:icon-icons.com)",
+      "Bash(curl *)",
+      "Bash(pip show *)",
+      "Bash(python -c \"from PIL import Image; img = Image.open\\('assets/bug.png'\\); img.save\\('assets/icon.ico', format='ICO', sizes=[\\(16,16\\),\\(32,32\\),\\(48,48\\),\\(64,64\\),\\(128,128\\),\\(256,256\\)]\\)\")",
+      "Bash(python -c \"from PIL import Image; img = Image.open\\('assets/bug.png'\\); print\\(f'Size: {img.size}, Format: {img.format}'\\)\")",
+      "Bash(xxd)",
+      "Bash(python -c \"from src.data.project_dao import ProjectDAO; from src.models.project_model import Project; from src.ui.project_manager_dialog import ProjectManagerDialog; print\\('All imports OK'\\)\")",
+      "Bash(cd /d E:\\\\HAP)",
+      "Bash(python -c \"from PIL import Image; print\\('Pillow installed'\\)\")",
+      "Bash(ie4uinit.exe *)",
+      "Bash(python *)",
+      "Bash(ls -la dist/)",
+      "Bash(ls test_icon.py)"
+    ]
+  }
+}
